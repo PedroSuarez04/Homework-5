@@ -1,0 +1,57 @@
+# Local credentials and private configuration
+.env
+.env.*
+secrets/
+credentials/
+private/
+.aws/
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*secret*.json
+
+# Python environments and generated files
+!pyproject.toml
+!uv.lock
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.egg-info/
+build/
+dist/
+
+# Reports, real logs, and local datasets (only the fake fixture is tracked)
+reports/
+*.log
+data/*
+!data/sample_events.json
+
+# Temporary and editor files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Pytest temporary files
+.pytest_tmp/
+.pytest_cache/
